@@ -12,17 +12,33 @@ const btnNew = document.querySelector('.btn--new');
 const btnHold = document.querySelector('.btn--hold');
 const btnRoll = document.querySelector('.btn--roll');
 
-// Starting condition
-score0El.textContent = 0;
-score1El.textContent = 0;
-diceEl.classList.add('hidden');
+let scores,currentScore,activePlayer, playing;
 
-// for array of players , index of player 1 = 0, player2 (num is value of score, idexe #'s are the players);
-// total scores
-const scores = [0, 0];
-let currentScore = 0;
-let activePlayer = 0;
-let playing = true;
+const init = function(){
+
+    // Starting condition
+    // for array of players , index of player 1 = 0, player2 (num is value of score, index #'s are the players);
+    // total scores
+    scores = [0, 0];
+    currentScore = 0;
+    activePlayer = 0;
+    playing = true;
+
+    score0El.textContent = 0;
+    score1El.textContent = 0;
+    current0El.textContent = 0;
+    current1El.textContent = 0;
+    diceEl.classList.add('hidden');
+    // Reset winner CSS for players
+    player0El.classList.remove('player--winner');
+    player1El.classList.remove('player--winner');
+    // add' active' to player 0 , bec player 0 starts in the game 1st.
+    player0El.classList.add('player--active');
+    //  Remove 'active' if player 1 was winner
+    player1El.classList.remove('player--active');
+}
+
+init(); 
 
 const switchPlayer = function () {
   // rest the score text of player who just finished
@@ -39,7 +55,7 @@ const switchPlayer = function () {
   player1El.classList.toggle('player--active');
 };
 
-// Rolling Dice Functionality
+// Rolling Dice  Button 🎲  Functionality
 btnRoll.addEventListener('click', function () {
   if (playing) {
     // 1. Generate random dice roll
@@ -67,6 +83,7 @@ btnRoll.addEventListener('click', function () {
   }
 });
 
+//  HOLD Button 📥 ( Adds Current Score to PLayer's Total Score)
 btnHold.addEventListener('click', function () {
     if(playing) {
   //   console.log('Hold button');
@@ -77,7 +94,7 @@ btnHold.addEventListener('click', function () {
     scores[activePlayer];
 
   // 2. Check to see if score is  >= 100
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     // Finish the game
     playing = false;
     diceEl.classList.add('hidden');
@@ -95,3 +112,6 @@ btnHold.addEventListener('click', function () {
     }
   }
 });
+
+// New Game Buutton 🔄 
+btnNew.addEventListener('click', init);
