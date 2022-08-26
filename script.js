@@ -1,6 +1,8 @@
 'use strict';
 
 // Selecting elements: Player 1 is index 0(--0), Player 2 is index 1(--1)
+const player0El = document.querySelector('.player--0')
+const player1El = document.querySelector('.player--1')
 const score0El = document.querySelector('#score--0');
 const score1El = document.getElementById('score--1');
 const current0El = document.getElementById('current--0');
@@ -46,5 +48,8 @@ btnRoll.addEventListener('click', function () {
     currentScore = 0;
     // switch player( 0 or 1 index) - terany operator
     activePlayer = activePlayer === 0 ? 1 : 0;
+    // toggle(add or remove) beteween having or not having active player class
+    player0El.classList.toggle('player--active');
+    player1El.classList.toggle('player--active');
   }
 });
