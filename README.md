@@ -26,9 +26,11 @@ you should see a display similar to this in your browser:
 
 In your terminal of you IDE , open a node terminal and run "live-server"
 Click the "roll dice" button. Click the  "Add Score" button to add that score to you total score .<br>
-![SnakeGIF](https://user-images.githubusercontent.com/77369211/186801751-5ba8e2fd-4501-43a1-8bdc-6a7116d5f276.gif)
+![RollTheDiceGIF](https://user-images.githubusercontent.com/77369211/187006339-15fa794b-a40d-4478-ac15-312c1b91d333.gif)
+![RollTheDiceGIF](https://user-images.githubusercontent.com/77369211/187006339-15fa794b-a40d-4478-ac15-312c1b91d333.gif)
+
 
 <br>
-![CodingDeveloperCodeGIF](https://user-images.githubusercontent.com/77369211/186803453-d4fe0989-5f5d-4659-bdc9-2f39c8063d78.gif)
+
 
 
