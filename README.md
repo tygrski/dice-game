@@ -9,7 +9,7 @@ https://tygrski.github.io/dice-game/
 
 ## Description
 
-Dice game is a two player dice game. Roll teh dice, add to your total score. if you roll a # 1, it will be the next players turn. First play to get a total score of 100 or more wins the game 🏆
+Dice game is a two player dice game. Roll the dice, add to your total score. If you roll a # 1, you can't add the number to your score and it will be the next players turn. First player to get a total score of 100 points or more wins the game 🏆
 
 Features to be implemented:
 
