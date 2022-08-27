@@ -16,7 +16,7 @@ Features to be implemented:
 
 ## Installation
 
-</a> and download the code from the <a href="git@github.com:tygrski/dice-game.git" target="_blank">g
+</a>Download the code from the following repo: <a href="git@github.com:tygrski/dice-game.git" target="_blank">g
 
 you should see a display similar to this in your browser:
 
