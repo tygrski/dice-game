@@ -18,13 +18,13 @@ Features to be implemented:
 
 Download the code from the following repo: <a href="https://github.com/tygrski/dice-game" target="_blank">Click Here<a/>
 
-you should see a display similar to this in your browser:
+You should see a display similar to this in your browser:
 
 ![Screenshot 2022-08-26 191239](https://user-images.githubusercontent.com/77369211/187006236-d0021cfe-887d-4a11-adcd-3cd3a574395c.jpg)
 
 ## Usage
 
 In your terminal of you IDE , open a node terminal and run "live-server"
-Click the "roll dice" button. Click the  "Add Score" button to add that score to you total score .<br>
+Click the "roll dice" button. Click the  "Add Score" button to add that score to you total score.<br>
 ![RollTheDiceGIF](https://user-images.githubusercontent.com/77369211/187006339-15fa794b-a40d-4478-ac15-312c1b91d333.gif)
 
