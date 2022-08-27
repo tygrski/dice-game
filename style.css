@@ -169,3 +169,7 @@ main {
 .hidden {
   display: none;
 }
+
+.diceGif{
+  height:28px ;
+}
