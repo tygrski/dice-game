@@ -31,6 +31,8 @@ Click the "roll dice" button. Click the  "Add Score" button to add that score to
 
 
 <br>
+![CodingDeveloperCodeGIF](https://user-images.githubusercontent.com/77369211/187006364-c07cdd5a-e043-46ed-8fd9-8ec4df2ce8b8.gif)
+![CodingDeveloperCodeGIF](https://user-images.githubusercontent.com/77369211/187006364-c07cdd5a-e043-46ed-8fd9-8ec4df2ce8b8.gif)
 
 
 
